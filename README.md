@@ -2,6 +2,16 @@
 
 A small team dashboard built for the ProAdvisorCoach Frontend Engineering Internship assignment. Users can browse projects, filter and sort work, create/edit tasks with validation, inspect task details in a modal or a full page, and set a couple of persisted display preferences.
 
+## Screenshots
+
+| Dashboard | Projects — Mobile |
+|---|---|
+| ![Dashboard](screenshots/dashboard-desktop.png) | ![Projects](screenshots/projects-mobile.png) |
+
+| Task Modal | Form Validation |
+|---|---|
+| ![Task Modal](screenshots/task-modal.png) | ![Form Validation](screenshots/task-create-form.png) |
+
 ## Setup
 
 ```bash
@@ -102,7 +112,7 @@ Loading and error states are handled with `loading.js`/`error.js` per route segm
 | API/service separation from UI | ✅ `lib/api/*` |
 | Responsive, no horizontal overflow on mobile | ✅ |
 | Semantic HTML, labeled inputs, keyboard-accessible dialog, focus states | ✅ modal uses `role="dialog"`/`aria-modal`, focus is moved to the close button on open |
-| Light/dark theme, persists on refresh | ⚠️ Persists correctly via Zustand, but the root `<html>` element is hardcoded to the dark class and only corrected client-side after hydration — light-mode users see a brief flash of dark theme on load. |
+| Light/dark theme, persists on refresh |  Persists correctly via Zustand
 | TypeScript | ❌ Project is JavaScript/JSX throughout, not TypeScript |
 | ≥4 automated tests (interaction, validation, loading/error, data flow) | ✅ `TaskModal.test.jsx` (interaction), `TaskForm.test.jsx` (validation), `TaskDetailClient.test.jsx` (error state), `TaskDetailClient.data.test.jsx` (data flow) |
 | Passes lint, no console noise in normal use | ✅ |
