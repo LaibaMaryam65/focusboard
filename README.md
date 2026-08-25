@@ -6,11 +6,11 @@ A small team dashboard built for the ProAdvisorCoach Frontend Engineering Intern
 
 | Dashboard | Projects — Mobile |
 |---|---|
-| ![Dashboard](screenshots/dashboard-desktop.png) | ![Projects](screenshots/projects-mobile.png) |
+| ![Dashboard](/focusboard/src/screenshots/dashboard-desktop.png) | ![Projects](/focusboard//src/screenshots/projects-mobile.png) |
 
 | Task Modal | Form Validation |
 |---|---|
-| ![Task Modal](screenshots/task-modal.png) | ![Form Validation](screenshots/task-create-form.png) |
+| ![Task Modal](/focusboard/src/screenshots/task-modal.png) | ![Create Task Form](/focusboard//src/screenshots/create-task-form.png) |
 
 ## Setup
 
